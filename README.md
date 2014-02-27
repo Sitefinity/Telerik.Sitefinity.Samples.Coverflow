@@ -9,8 +9,8 @@ You can run the Coverflow widget sample with any type of license.
 
 Using the Coverflow widget sample, you can:
 
-* Create a RadCoverFlow control 
-* Register the control in the Toolbox
+* Create a RadCoverFlow widget 
+* Register the widget in the Toolbox
 * Upload all images necessary for the widget to function in a Sitefinity Images Library
 
 
