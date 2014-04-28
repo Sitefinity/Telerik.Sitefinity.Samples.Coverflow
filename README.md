@@ -16,6 +16,7 @@ Using the Coverflow widget sample, you can:
 
 ### Requirements
 
+* Sitefinity license
 
 * .NET Framework 4
 
@@ -49,7 +50,7 @@ The project refers to the following NuGet packages:
 
 *	Telerik.Sitefinity.Core.nupkg
 
-*	OpenAccess.Core.nupkg
+*	DataAccess.Core.nupkg
 
 **SitefinityWebApp** library
 
