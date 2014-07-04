@@ -1,22 +1,21 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Web;
 using System.Web.Security;
 using System.Web.SessionState;
-using Telerik.Sitefinity;
-using System.IO;
-using Telerik.Sitefinity.Abstractions;
 using CoverFlowWidget;
-using Telerik.Sitefinity.Samples.Common;
+using Telerik.Sitefinity;
+using Telerik.Sitefinity.Abstractions;
 using Telerik.Sitefinity.Data.OA;
+using Telerik.Sitefinity.Samples.Common;
 using Telerik.Sitefinity.Services;
 
 namespace SitefinityWebApp
 {
     public class Global : System.Web.HttpApplication
     {
-
         private const string SamplesThemeName = "SamplesTheme";
         private const string SamplesThemePath = "~/App_Data/Sitefinity/WebsiteTemplates/Samples/App_Themes/Samples";
 
@@ -29,16 +28,13 @@ namespace SitefinityWebApp
 
         protected void Application_Start(object sender, EventArgs e)
         {
-            Bootstrapper.Initialized += new EventHandler<Telerik.Sitefinity.Data.ExecutedEventArgs>(this.Bootstrapper_Initialized);
+            SystemManager.ApplicationStart += this.SystemManager_ApplicationStart;
         }
 
-        protected void Bootstrapper_Initialized(object sender, Telerik.Sitefinity.Data.ExecutedEventArgs args)
+        private void SystemManager_ApplicationStart(object sender, EventArgs e)
         {
-            if (args.CommandName == "Bootstrapped")
-            {
-                SystemManager.RunWithElevatedPrivilegeDelegate worker = new SystemManager.RunWithElevatedPrivilegeDelegate(CreateSample);
-                SystemManager.RunWithElevatedPrivilege(worker);
-            }
+            SystemManager.RunWithElevatedPrivilegeDelegate worker = new SystemManager.RunWithElevatedPrivilegeDelegate(this.CreateSample);
+            SystemManager.RunWithElevatedPrivilege(worker);
         }
 
         private void CreateSample(object[] args)
@@ -65,32 +61,26 @@ namespace SitefinityWebApp
 
         protected void Session_Start(object sender, EventArgs e)
         {
-
         }
 
         protected void Application_BeginRequest(object sender, EventArgs e)
         {
-
         }
 
         protected void Application_AuthenticateRequest(object sender, EventArgs e)
         {
-
         }
 
         protected void Application_Error(object sender, EventArgs e)
         {
-
         }
 
         protected void Session_End(object sender, EventArgs e)
         {
-
         }
 
         protected void Application_End(object sender, EventArgs e)
         {
-
         }
     }
 }
