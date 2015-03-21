@@ -5,12 +5,9 @@ Telerik.Sitefinity.Samples.Coverflow
 
 ## Coverflow widget sample
 
-The CoverFlow widget is a Silverlight-based widget that displays all images uploaded in a selected album of Sitefinity Images library. The sample features a widget created with RadCoverFlow, part of RadControls for Silverlight suite that is delivered with the SDK. The RadCoverFlow is used to create a native Sitefinity widget. 
-
-You can run the Coverflow widget sample with any type of license.
-
+The CoverFlow widget is a Silverlight-based widget that displays all images uploaded in a selected album of Sitefinity Images library. The sample features a widget created with RadCoverFlow, part of RadControls for Silverlight suite that is delivered with the SDK. The RadCoverFlow is used to create a native Sitefinity widget.  
+You can run the Coverflow widget sample with any type of license.  
 Using the Coverflow widget sample, you can:
-
 * Create a RadCoverFlow widget 
 * Register the widget in the Toolbox
 * Upload all images necessary for the widget to function in a Sitefinity Images Library
@@ -37,24 +34,20 @@ For a full list of the referenced packages and their versions see the [packages.
 For a history and additional information related to package versions on different releases of this repository, see the [Releases page](https://github.com/Sitefinity-SDK/Telerik.Sitefinity.Samples.Coverflow/releases).    
 
 ### Installation instructions: SDK Samples from GitHub
-
-1. In Solution Explorer, navigate to _SitefinityWebApp_ -> *App_Data* -> _Sitefinity_ -> _Configuration_ and select the **StartupConfig.config** file. 
+1. In Solution Explorer, navigate to _SitefinityWebApp_ » *App_Data* » _Sitefinity_ » _Configuration_ and select the **StartupConfig.config** file. 
 2. Modify the **dbType**, **sqlInstance** and **dbName** values to match your server settings.
 3. Build the solution.
 
-For version-specific details about the required Sitefinity NuGet packages for this sample application, click on [Releases]
- (https://github.com/Sitefinity-SDK/Telerik.Sitefinity.Samples.Coverflow/releases).
+For version-specific details about the required Sitefinity NuGet packages for this sample application, click on [Releases](https://github.com/Sitefinity-SDK/Telerik.Sitefinity.Samples.Coverflow/releases).
 
 ### Login
 
-To login to Sitefinity backend, use the following credentials: 
-
-**Username:** admin
+To login to Sitefinity backend, use the following credentials:  
+**Username:** admin   
 **Password:** password
 
 
 ### Additional resources
-
-[Developers Guide](http://www.sitefinity.com/documentation/documentationarticles/developers-guide)
-
-[Create a Book widget](http://www.sitefinity.com/documentation/documentationarticles/developers-guide/how-to/how-to-create-a-book-widget)
+Sitefinity documentation
+* [Develop: Use and extend Sitefinity functionality](http://docs.sitefinity.com/develop-create-and-manage-website-content)
+* [Tutorials: Create widgets](http://docs.sitefinity.com/tutorials-create-widgets)
