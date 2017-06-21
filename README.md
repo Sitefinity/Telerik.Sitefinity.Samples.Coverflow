@@ -1,21 +1,25 @@
-Telerik.Sitefinity.Samples.Coverflow
+###The bellow sample is deprecated. It's support ends with the Sitefinity 8.1 release and will no longer be updated.
+
+Progress.Sitefinity.Samples.Coverflow
 ====================================
+
+### This repository is not automatically upgraded to latest Sitefintiy version. The repository is monitored for pull requests and fixes. The latest official version of Sitefinity that supports this sample is 8.1. Be aware that using a higher version could cause unexpected behavior. If you successfully upgrade the example to a greater version, please share your work with the community by submitting your changes via pull request.
  
 [![Build Status](http://sdk-jenkins-ci.cloudapp.net/buildStatus/icon?job=Telerik.Sitefinity.Samples.Coverflow.CI)](http://sdk-jenkins-ci.cloudapp.net/job/Telerik.Sitefinity.Samples.Coverflow.CI/)
 
 ## Coverflow widget sample
 
-The CoverFlow widget is a Silverlight-based widget that displays all images uploaded in a selected album of Sitefinity Images library. The sample features a widget created with RadCoverFlow, part of RadControls for Silverlight suite that is delivered with the SDK. The RadCoverFlow is used to create a native Sitefinity widget.  
+The CoverFlow widget is a Silverlight-based widget that displays all images uploaded in a selected album of Sitefinity CMS Images library. The sample features a widget created with RadCoverFlow, part of RadControls for Silverlight suite that is delivered with the SDK. The RadCoverFlow is used to create a native Sitefinity CMS widget.  
 You can run the Coverflow widget sample with any type of license.  
 Using the Coverflow widget sample, you can:
 * Create a RadCoverFlow widget 
 * Register the widget in the Toolbox
-* Upload all images necessary for the widget to function in a Sitefinity Images Library
+* Upload all images necessary for the widget to function in a Sitefinity CMS Images Library
 
 
 ### Requirements
 
-* Sitefinity license
+* Sitefinity CMS license
 * .NET Framework 4.5
 * Visual Studio 2012
 * Microsoft SQL Server 2008R2 or later versions
@@ -42,12 +46,12 @@ For version-specific details about the required Sitefinity NuGet packages for th
 
 ### Login
 
-To login to Sitefinity backend, use the following credentials:  
+To login into the Sitefinity CMS backend, use the following credentials:  
 **Username:** admin   
 **Password:** password
 
 
 ### Additional resources
-Sitefinity documentation
-* [Develop: Use and extend Sitefinity functionality](http://docs.sitefinity.com/develop-create-and-manage-website-content)
+Progress Sitefinity CMS Documentation
+* [Develop: Use and extend Sitefinity CMS functionality](http://docs.sitefinity.com/develop-create-and-manage-website-content)
 * [Tutorials: Create widgets](http://docs.sitefinity.com/tutorials-create-widgets)
